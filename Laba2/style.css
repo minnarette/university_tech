@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.home-btn {
+    float: right;
+    width: 100%;
+}
+
+.home-btn button {
+    padding: 15px;
+    color: #fff;
+    background: #000;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+.home-btn button:hover {
+    color: #000;
+    background: #fff;
+}
+
+.wrapper {
+    position: relative;
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(154, 27, 162, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.title {
+    position: absolute;
+    top: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 15px;
+    width: 300px;
+    height: 54px;
+    border-radius: 16px;
+    margin-bottom: 12px;
+    border: none;
+    background: #cdcdcd;
+    outline: none;
+    font-size: 18px;
+}
+
+form input:focus {
+    border: 1px solid #fff;
+    background: rgb(238, 232, 8);
+    background: linear-gradient(
+        90deg,
+        rgba(238, 232, 8, 0.958420868347339) 0%,
+        rgba(246, 139, 4, 1) 0%,
+        rgba(255, 42, 0, 1) 100%
+    );
+}
+
+.btn  {
+    text-align: center;
+}
+
+form .btn button {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 24px;
+    border: none;
+    background: #ce16ff;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
