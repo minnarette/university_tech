@@ -23,6 +23,14 @@ btnWidth.addEventListener("click", () => {
     document.getElementById('img-0').style.width = "500px"
 })
 
+const btnHeight = document.createElement('button');
+btnHeight.innerHTML = "Height";
+btnHeight.style.padding = "5px";
+
+btnHeight.addEventListener("click", () => {
+    document.getElementById('img-0').style.height = "500px"
+})
+
 btnUp.addEventListener('click', () => {
     const arrImg = [
         'https://images.pexels.com/photos/9025296/pexels-photo-9025296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
@@ -98,6 +106,7 @@ btnDown.addEventListener('click', () => {
 blockBtn.appendChild(btnUp);
 blockBtn.appendChild(btnDown);
 blockBtn.appendChild(btnWidth);
+blockBtn.appendChild(btnHeight);
 document.body.appendChild(blockBtn)
 
 const arrImg = [
