@@ -4,7 +4,7 @@
         <input type="textbox" name="firstName" required>
         <input type="submit" name="submit">
     </form>
-    <a href="./alina.php">click here</a>
+    <a href="./rainbow.php">click here</a>
     <a href="./song.php">your song</a>
 </div>
 <?php
